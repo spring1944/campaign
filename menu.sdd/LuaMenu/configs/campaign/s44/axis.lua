@@ -5,7 +5,7 @@ local retData = {
 		name = "German Polish invasion",
 		img = LUA_DIRNAME .. "configs/gameConfig/" .. shortname .. "/skinning/maps/Europe_1942.png",
 		chapters = {
-			[1] = VFS.Include(LUA_DIRNAME .. "configs/campaign/" .. shortname .. "/allies/westerplatte.lua"),
+			[1] = VFS.Include(LUA_DIRNAME .. "configs/campaign/" .. shortname .. "/axis/westerplatte.lua"),
 		},
 	},
 }
