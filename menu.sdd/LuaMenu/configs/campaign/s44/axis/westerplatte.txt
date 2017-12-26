@@ -7,8 +7,8 @@
 
 	ModHash=1860137120;
 	MapHash=2388980364;
-	Mapname=1944 - Westerplatte 1.1;
-	GameType=Spring: 1944 $VERSION;
+	Mapname=1944 - Westerplatte 1.2;
+	GameType=S44-Campaign-Westerplatte-Axis;
 
 	startpostype=3;
 	[mapoptions]
@@ -97,7 +97,7 @@
 		StartPosZ=4710;
 		AllyTeam=0;
 		RGBColor=0.73 0.54 0.23;
-		Side=US;
+		Side=PL;
 		Handicap=0;
 	}
 

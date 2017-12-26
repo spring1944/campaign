@@ -14,6 +14,7 @@ local modinfo = {
 		"Spring Cursors",
 		"Spring content v1",
 		"Spring:1944-CampaignAPI",
+		"S44-Poland 1.0",
 	},
 	onlyLocal       = true,
 	engine          = "104",
