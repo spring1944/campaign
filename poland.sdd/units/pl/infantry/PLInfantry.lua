@@ -54,6 +54,15 @@ local PL_Sniper = SniperInf:New(PLInf):New{
 	},
 }
 
+local PL_ATInf = ATRifleInf:New(PLInf):New{
+	name				= "Karabinek ppanc wz. 35",
+	weapons = {
+		[1] = { -- AT Launcher
+			name				= "Karabinek_wz35",
+		},
+	},
+}
+
 local PL_Granatnik = LightMortarInf:New(PLInf):New{
 	name				= "Granatnik wz. 36 Grenade discharger",
 	weapons = {
@@ -95,6 +104,7 @@ return lowerkeys({
 	["PLWZ30HMG_DugIn"] = PL_CMKWZ30HMG_Sandbag,
 	["PLWZ30HMG"] = PL_CMKWZ30HMG,
 	["PLSniper"] = PL_Sniper,
+	["PLATInf"] = PL_ATInf,
 	["PLGranatnikMortar"] = PL_Granatnik,
 	["PLMortar"] = PL_Mortar,
 	["PLObserv"] = PL_Observ,

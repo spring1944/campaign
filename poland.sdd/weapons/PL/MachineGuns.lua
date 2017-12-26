@@ -1,5 +1,3 @@
-VFS.Include("weapons/Infantry/MachineGuns.lua")
-
 -- Browning wz.1928
 local Browning_wz1928 = MGClass:New{
   burst              = 5,
@@ -11,7 +9,23 @@ local Browning_wz1928 = MGClass:New{
   soundTrigger       = false, -- overrides default
 }
 
--- Swedish version
+-- M1919 Browning (USA)
+local M1919A4Browning = MGClass:New{
+  burst              = 7,
+  burstRate          = 0.14,
+  name               = [[M1919A4 Browning .30 caliber machinegun]],
+  range              = 820,
+  reloadTime         = 3,
+  soundStart         = [[US_30Cal]],
+  sprayAngle         = 460,
+}
+-- Deployed M1919 Browning (USA)
+local M1919A4Browning_Deployed = M1919A4Browning:New{
+  range              = 1020,
+  sprayAngle         = 400,
+}
+
+-- Polish version
 local ckm_wz30 = M1919A4Browning:New{
 	name		= "Ckm wz. 30",
 }

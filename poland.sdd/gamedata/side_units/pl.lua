@@ -6,6 +6,7 @@ local plunits =
     "platminesign",
     "plapminesign",
     "pltankobstacle",
+    "plstorage",
   },
 
   plhqaiengineer =
@@ -13,6 +14,7 @@ local plunits =
     "platminesign",
     "plapminesign",
     "pltankobstacle",
+    "plstorage",
   },
 
 }
