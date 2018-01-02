@@ -1,0 +1,15 @@
+[pl37mmat_destroyed] {
+  description=Destroyed Gun;
+  damage=1251;
+  energy=500;
+  featureDead=Debris_Small;
+  footprintX=2;
+  footprintZ=2;
+  object=pl37mmat_dead.s3o;
+  reclaimable=1;
+  [customParams]
+  {
+    
+  }
+}
+
