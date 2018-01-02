@@ -1,4 +1,4 @@
-local PL_Skoda100_Truck = HGunTractor:New{
+local PL_100mm_wz1914_Truck = HGunTractor:New{
 	name					= "Towed Skoda houfnice vz 14",
 	corpse					= "PLFiat621_Burning", -- TODO: grumble
 	trackOffset				= 10,
@@ -8,7 +8,7 @@ local PL_Skoda100_Truck = HGunTractor:New{
 	},
 }
 
-local PL_Skoda100_Stationary = HGun:New{
+local PL_100mm_wz1914_Stationary = HGun:New{
 	name					= "Deployed Skoda houfnice vz 14",
 	corpse					= "pl100mm_wz1914_destroyed",
 	weapons = {
@@ -25,6 +25,6 @@ local PL_Skoda100_Stationary = HGun:New{
 }
 
 return lowerkeys({
-	["PLSkoda100_Truck"] = PL_Skoda100_Truck,
-	["PLSkoda100_Stationary"] = PL_Skoda100_Stationary,
+	["PL100mm_wz1914_Truck"] = PL_100mm_wz1914_Truck,
+	["PL100mm_wz1914_Stationary"] = PL_100mm_wz1914_Stationary,
 })
