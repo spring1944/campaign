@@ -14,10 +14,10 @@ local PL_75mm_wz1897_Stationary = FGGun:New{
 	corpse					= "PL75mm_wz1897_Destroyed",
 	weapons = {
 		[1] = { -- HE
-			name	= "75mm1897HE",
+			name	= "wz75mm1897HE",
 		},
 		[2] = { -- AP
-			name	= "75mm1897AP",
+			name	= "wz75mm1897AP",
 		},
 	},	
 	customParams = {
