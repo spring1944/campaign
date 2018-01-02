@@ -6,7 +6,7 @@
   featureDead=PLFiat621_Burning;
   footprintX=2;
   footprintZ=2;
-  object=FRA/PLFiat621_dead.s3o;
+  object=PLFiat621_dead.s3o;
   reclaimable=1;
 	collisionVolumeType=cylX;
 	collisionVolumeScales=18 15 35;
@@ -26,7 +26,7 @@
   energy=50;
   footprintX=2;
   footprintZ=2;
-  object=FRA/PLFiat621_wreck.s3o;
+  object=PLFiat621_wreck.s3o;
   reclaimable=1;
 	collisionVolumeType=cylX;
 	collisionVolumeScales=18 15 35;
