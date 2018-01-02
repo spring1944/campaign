@@ -1,4 +1,4 @@
-local PL_37mmAT_Truck = AAGunTractor:New{
+local PL_37mmAT_Truck = ATGunTractor:New{
 	name					= "Towed 37mm wz.36",
 	corpse					= "PLFiat621_Burning", -- TODO: grumble
 	trackOffset				= 5,
@@ -8,16 +8,15 @@ local PL_37mmAT_Truck = AAGunTractor:New{
 	},
 }
 
-local PL_37mmAT_Stationary = AAGun:New{
+local PL_37mmAT_Stationary = LightATGun:New{
 	name					= "Deployed 37mm wz.36",
 	corpse					= "PL37mmAT_Destroyed",
+	minCloakDistance = 160,
+	cloakTimeout = 64,
 
 	weapons = {
 		[1] = { -- AA
 			name				= "Bofors_m38AP",
-		},
-		[2] = { -- HE
-			name				= "Bofors_m38HE",
 		},
 	},
 	customParams = {
