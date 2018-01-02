@@ -1,8 +1,8 @@
-local PL_CitroenType45 = TransportTruck:New{
-	name					= "Citroen Type 45",
+local PL_Fiat621 = TransportTruck:New{
+	name					= "Polski Fiat 621",
 	trackOffset				= 10,
 	trackWidth				= 16,
-	objectName				= "FRA/FRACitroenType45.s3o",
+	objectName				= "PL/PLFiat621.s3o",
 
 	customParams = {
 
@@ -16,9 +16,9 @@ local PL_TruckSupplies = Supplies:New{
 }
 
 -- lowercase objectname!
-PL_TruckSupplies.objectname = "FRA/FRATruckSupplies.s3o"
+PL_TruckSupplies.objectname = "PL/PLTruckSupplies.s3o"
 
 return lowerkeys({
-	["PLCitroenType45"] = PL_CitroenType45,
+	["PLFiat621"] = PL_Fiat621,
 	["PLTruckSupplies"] = PL_TruckSupplies,
 })
