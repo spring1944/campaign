@@ -34,9 +34,22 @@ local ckm_wz30_deployed = M1919A4Browning_Deployed:New{
 	name		= "Ckm wz. 30",
 }
 
+-- Export version of Hotchkiss Mle 1914
+-- copied stats from Japanese type 92 as it is the same gun
+local CKMwz14 = MGClass:New{
+  burst              = 8,
+  burstRate          = 0.073,
+  name               = [[ckm wz. 14]],
+  range              = 1100,
+  reloadTime         = 2.8,
+  soundStart         = [[JPN_Type98_HMG]],
+  sprayAngle         = 320,
+} 
+
 -- Return only the full weapons
 return lowerkeys({
   Browning_wz1928 = Browning_wz1928,
   ckm_wz30 = ckm_wz30,
   ckm_wz30_deployed = ckm_wz30_deployed,
+  CKMwz14 = CKMwz14,
 })
