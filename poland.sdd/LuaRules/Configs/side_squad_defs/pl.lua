@@ -123,6 +123,20 @@ local plDefs = {
 		buildCostMetal = 580,
 		buildPic = "plobserv.png",
 	},
+
+	["pl_tankette_platoon_tks"] =
+	{
+		members = {
+			"pltks",
+			"pltks_20mm",
+		},
+		name = "Tankette Platoon",
+		description = "1 x TKS 20mm, 1 x TKS",
+		buildCostMetal = 900,
+		buildPic = "PLTKS_platoon.png",
+		objectName = "PL/PLTKS.s3o",
+	},
+
 }
 
 return plDefs
