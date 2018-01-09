@@ -1,7 +1,7 @@
 local PL_75mm_wz1897_Truck = FGGunTractor:New{
-	name					= "Towed 75mm wz. 1902/26",
+	name					= "Towed 75mm wz. 1897",
 	buildCostMetal			= 1250,
-	corpse					= "PLFiat621_Burning", -- TODO: grumble
+	corpse					= "PLC4P_Abandoned", -- TODO: grumble
 	trackOffset				= 10,
 	trackWidth				= 13,
 	customParams = {
@@ -10,7 +10,7 @@ local PL_75mm_wz1897_Truck = FGGunTractor:New{
 }
 
 local PL_75mm_wz1897_Stationary = FGGun:New{
-	name					= "Towed 75mm wz. 1902/26",
+	name					= "Towed 75mm wz. 1897",
 	corpse					= "PL75mm_wz1897_Destroyed",
 	weapons = {
 		[1] = { -- HE

@@ -1,6 +1,6 @@
 local PL_100mm_wz1914_Truck = HGunTractor:New{
 	name					= "Towed Skoda houfnice vz 14",
-	corpse					= "PLFiat621_Burning", -- TODO: grumble
+	corpse					= "PLC4P_Abandoned", -- TODO: grumble
 	trackOffset				= 10,
 	trackWidth				= 13,
 	customParams = {

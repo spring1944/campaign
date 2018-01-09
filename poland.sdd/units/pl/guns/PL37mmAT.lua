@@ -1,6 +1,6 @@
 local PL_37mmAT_Truck = ATGunTractor:New{
 	name					= "Towed 37mm wz.36",
-	corpse					= "PLFiat621_Burning", -- TODO: grumble
+	corpse					= "PLFiat621_Abandoned", -- TODO: grumble
 	trackOffset				= 5,
 	trackWidth				= 12,
 	customParams = {
