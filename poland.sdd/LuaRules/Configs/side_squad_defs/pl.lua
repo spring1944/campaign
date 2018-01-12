@@ -137,6 +137,18 @@ local plDefs = {
 		objectName = "PL/PLTKS.s3o",
 	},
 
+	["pl_armoredcar_platoon"] =
+	{
+		members = {
+			"plwz34",
+			"plwz34_gun",
+		},
+		name = "Armored Car Platoon",
+		description = "1 x wz.34, 1 x wz.34 with 37mm",
+		buildCostMetal = 900,
+		buildPic = "PLwz34_platoon.png",
+		objectName = "PL/PLwz34.s3o",
+	},
 }
 
 return plDefs
