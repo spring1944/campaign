@@ -28,6 +28,6 @@ clean:
 
 # Installing
 # ==========
-install:
+install: all
 	$(CP) -f ./*.sd7 $(PREFIX)/
 	$(CP) -f ./missions/*.sd7 $(PREFIX)/
