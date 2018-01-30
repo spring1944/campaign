@@ -3,10 +3,16 @@ local plunits =
   --- PL
     plhqengineer =
   {
+	"plvehicleyard",
+	--"plbarracks",
+	"plgunyard",
+	--"plradar",
+	"plstorage",
     "platminesign",
     "plapminesign",
     "pltankobstacle",
-    "plstorage",
+	--"plassaultboat",
+	--"plpontoonraft",
   },
 
   plhqaiengineer =
@@ -17,6 +23,42 @@ local plunits =
     "plstorage",
   },
 
+  plc7p =
+  {
+    --"plbarracks",
+    "plgunyard",
+    "plvehicleyard",
+    "pltankyard",
+    --"plradar",
+    --"plsupplydepot",
+    "plstorage",
+    "pltankobstacle",
+  },
+  
+  plgunyard = {
+	"plc7p",
+	"plfiat621",
+	"pl37mmat_truck",
+	"pl40mm_wz36_bofors_truck",
+	"pl75mm_wz1897_truck",
+	"pl100mm_wz1914_truck",
+  },
+  
+    plvehicleyard =
+    {
+        "plc7p",
+        "plfiat621",
+        "pl_armoredcar_platoon",
+    },
+  
+    pltankyard =
+    {
+        "plc7p",
+        "pl_tankette_platoon_tks",
+        "plr35",
+        "pl7tp",
+    },
+  
 }
 
 return plunits

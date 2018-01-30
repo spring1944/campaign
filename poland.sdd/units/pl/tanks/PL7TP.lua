@@ -37,6 +37,26 @@ local PL7TP = LightTank:New{
 	},
 }
 
+local PLC7P = EngineerVehicle:New{
+	name				= "C7P",
+	description			= "Engineering Vehicle",
+	corpse				= "PLC7P_Burning",
+	category			= "HARDVEH",
+	maxDamage			= 850,
+	trackOffset			= 5,
+	trackWidth			= 19,
+	customParams = {
+		armor_front			= 17,
+		armor_rear			= 9,
+		armor_side			= 15,
+		armor_top			= 0,
+		maxvelocitykmh		= 26,
+		customanims			= "c7p",
+		exhaust_fx_name			= "diesel_exhaust",	-- it is a diesel powered tank
+	},
+}
+
 return lowerkeys({
 	["PL7TP"] = PL7TP,
+	["PLC7P"] = PLC7P,
 })
