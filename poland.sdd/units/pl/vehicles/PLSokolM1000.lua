@@ -1,4 +1,4 @@
-local PLSokol1000Scout = ScoutCar:New{
+local PLSokol1000Scout = ScoutCar:New(Motorcycle):New{
 	name				= "Sokol 1000 M111",
 	corpse				= "plsokol1000_Abandoned",
 	trackOffset			= 4,
