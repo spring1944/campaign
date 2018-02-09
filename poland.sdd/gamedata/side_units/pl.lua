@@ -49,6 +49,8 @@ local plunits =
         "plc7p",
         "plfiat621",
         "pl_armoredcar_platoon",
+		"plsokol1000heavy",
+		"plsokol1000scout",
     },
   
     pltankyard =
