@@ -6,7 +6,7 @@ local plunits =
 	"plvehicleyard",
 	--"plbarracks",
 	"plgunyard",
-	--"plradar",
+	"plradar",
 	"plstorage",
     "platminesign",
     "plapminesign",
@@ -29,7 +29,7 @@ local plunits =
     "plgunyard",
     "plvehicleyard",
     "pltankyard",
-    --"plradar",
+    "plradar",
     --"plsupplydepot",
     "plstorage",
     "pltankobstacle",
@@ -51,6 +51,7 @@ local plunits =
         "pl_armoredcar_platoon",
 		"plsokol1000heavy",
 		"plsokol1000scout",
+		"plfiat508_iii",
     },
   
     pltankyard =
@@ -60,7 +61,12 @@ local plunits =
         "plr35",
         "pl7tp",
     },
-  
+
+	plradar =
+	{
+		"pl_sortie_recon",
+	},
+	
 }
 
 return plunits

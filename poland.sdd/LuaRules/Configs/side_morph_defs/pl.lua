@@ -132,7 +132,24 @@ local plDefs = {
         metal = 0,
         energy = 0,
     },
-
+--[[
+    plradar =
+    {
+        into = 'plfiat508_iii',
+        tech = 0,
+        time = 40,
+        metal = 0,
+        energy = 0,
+    },
+]]--
+    plfiat508_iii =
+    {
+        into = 'plradar',
+        tech = 0,
+        time = 40,
+        metal = 0,
+        energy = 0,
+    },
 }
 
 return plDefs
