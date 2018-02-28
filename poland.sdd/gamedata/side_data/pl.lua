@@ -1,6 +1,7 @@
 local pldata = {
     name = "PL",
     startUnit = "PLHQEngineer",
+    alliance = "allies",
     wiki_title = "Poland",
     wiki_desc = [[## Introduction
 
