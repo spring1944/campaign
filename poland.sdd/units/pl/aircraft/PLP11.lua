@@ -24,21 +24,21 @@ local PL_PZLP11c = Fighter:New{
 
 	weapons = {
 		[1] = {
-			name				= "M1919A4Browning",
+			name				= "PWUwz36",
 			maxAngleDif			= 10,
 		},
 		[2] = {
-			name				= "M1919A4Browning",
+			name				= "PWUwz36",
 			maxAngleDif			= 10,
 			slaveTo				= 1,
 		},
 		[3] = {
-			name				= "M1919A4Browning",
+			name				= "PWUwz36",
 			maxAngleDif			= 10,
 			slaveTo				= 1,
 		},
 		[4] = {
-			name				= "M1919A4Browning",
+			name				= "PWUwz36",
 			maxAngleDif			= 10,
 			slaveTo				= 1,
 		},

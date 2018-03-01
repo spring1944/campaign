@@ -46,10 +46,27 @@ local CKMwz14 = MGClass:New{
   sprayAngle         = 320,
 } 
 
+-- Aircraft machineguns
+local PWU_wz36 = M1919A4Browning_Deployed:New{
+	burst		= 10,
+	burstRate	= 0.05,
+	name		= [[Lotniczy Karabin Maszynowy Pilota wz.36N]],
+	soundStart	= [[PL_PWU_wz_36]],
+}
+
+local PWU_wz37 = Browning_wz1928:New{
+	burst		= 7,
+	burstRate	= 0.05,
+	name		= [[Karabin maszynowy obserwatora wz.37]],
+	soundStart	= [[PL_PMU_wz_37]],
+}
+
 -- Return only the full weapons
 return lowerkeys({
   Browning_wz1928 = Browning_wz1928,
   ckm_wz30 = ckm_wz30,
   ckm_wz30_deployed = ckm_wz30_deployed,
   CKMwz14 = CKMwz14,
+  PWUwz36 = PWU_wz36,
+  PWUwz37 = PWU_wz37,
 })
