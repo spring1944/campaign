@@ -66,6 +66,7 @@ local plunits =
 	{
 		"pl_sortie_recon",
 		"pl_sortie_light_fighter",
+		"pl_sortie_bomber",
 	},
 	
 }

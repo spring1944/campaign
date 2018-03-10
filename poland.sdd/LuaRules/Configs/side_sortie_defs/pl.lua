@@ -22,6 +22,17 @@ local plSorties = {
 		buildCostMetal = 4000,
 		buildPic = "plp11.png",
 	},
+	pl_sortie_bomber = {
+		members = {
+			"plp23b",
+			"plp23b",
+		},
+		delay = 45,
+		name = "Dive Bomber Sortie",
+		description = "2 x P.23b Planes",
+		buildCostMetal = 5255,
+		buildPic = "plp23b.png",
+	},
 }
 
 return plSorties
