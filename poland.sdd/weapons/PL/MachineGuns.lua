@@ -58,7 +58,7 @@ local PWU_wz37 = Browning_wz1928:New{
 	burst		= 7,
 	burstRate	= 0.05,
 	name		= [[Karabin maszynowy obserwatora wz.37]],
-	soundStart	= [[PL_PMU_wz_37]],
+	soundStart	= [[PL_PWU_wz_37]],
 }
 
 -- Return only the full weapons
