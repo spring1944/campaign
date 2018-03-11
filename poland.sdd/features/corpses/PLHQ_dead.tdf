@@ -1,0 +1,15 @@
+[PLHQ_Destroyed] {
+  description=Destroyed HQ;
+  damage=2501;
+  energy=1000;
+  featureDead=BuildingDebris_Large;
+  footprintX=7;
+  footprintZ=7;
+  object=PLHQ_Dead.S3O;
+  reclaimable=1;
+	[customParams]
+		{
+
+		}
+}
+

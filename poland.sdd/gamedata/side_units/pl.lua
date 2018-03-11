@@ -1,6 +1,11 @@
 local plunits =
 {
   --- PL
+  plhq = {
+	"plhqengineer",
+	"pl_platoon_hq",
+	"pl_sortie_recon",
+  },
     plhqengineer =
   {
 	"plvehicleyard",
