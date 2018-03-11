@@ -6,7 +6,7 @@ local plDefs = {
 	["pl_platoon_hq"] =
 	{
 		members = {
-			"plkarabinekat",
+			"platinf",
 			"plrifle",
 			"plrifle",
 			"plrifle",
@@ -32,8 +32,8 @@ local plDefs = {
 			"plrifle",
 			"plrifle",
 			"plrifle",
-			"plkarabinekat",
-			"plkarabinekat",
+			"platinf",
+			"platinf",
 		},
 		name = "Enfield Rifle Platoon",
 		description = "10 x Karabinek Rifle, 2 x Karabinek AT: Long-Range Combat Platoon",
@@ -101,9 +101,9 @@ local plDefs = {
 	["pl_platoon_at"] =
 	{
 		members = {
-			"plkarabinekat",
-			"plkarabinekat",
-			"plkarabinekat",
+			"platinf",
+			"platinf",
+			"platinf",
 		},
 		name = "Karabinek Anti-Tank Squad",
 		description = "3 x Karabinek AT: Anti-Tank Infantry",
