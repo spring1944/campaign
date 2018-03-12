@@ -9,7 +9,7 @@ local plunits =
     plhqengineer =
   {
 	"plvehicleyard",
-	--"plbarracks",
+	"plbarracks",
 	"plgunyard",
 	"plradar",
 	"plstorage",
@@ -30,7 +30,7 @@ local plunits =
 
   plc7p =
   {
-    --"plbarracks",
+    "plbarracks",
     "plgunyard",
     "plvehicleyard",
     "pltankyard",
@@ -39,6 +39,21 @@ local plunits =
     "plstorage",
     "pltankobstacle",
   },
+
+	plbarracks =
+	{
+		"plhqengineer",
+		"pl_platoon_rifle",
+		"pl_platoon_assault",
+		"pl_platoon_mg",
+		"pl_platoon_at",
+		"pl_platoon_sniper",
+		"pl_platoon_mortar",
+		"plfiat621",
+		"plsokol1000scout",
+--		"plpontoontruck",
+	},
+
   
   plgunyard = {
 	"plc7p",

@@ -1,0 +1,15 @@
+[plbarracks_destroyed] {
+  description=Destroyed Barracks;
+  damage=1251;
+  energy=1000;
+  featureDead=BuildingDebris_Large;
+  footprintX=5;
+  footprintZ=7;
+  object=PLBarracks_Dead.S3O;
+  reclaimable=1;
+	[customParams]
+		{
+
+		}
+}
+
