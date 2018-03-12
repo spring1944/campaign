@@ -16,8 +16,8 @@ local plunits =
     "platminesign",
     "plapminesign",
     "pltankobstacle",
-	--"plassaultboat",
-	--"plpontoonraft",
+	"plassaultboat",
+	"plpontoonraft",
   },
 
   plhqaiengineer =
@@ -35,7 +35,7 @@ local plunits =
     "plvehicleyard",
     "pltankyard",
     "plradar",
-    --"plsupplydepot",
+    "plsupplydepot",
     "plstorage",
     "pltankobstacle",
   },
