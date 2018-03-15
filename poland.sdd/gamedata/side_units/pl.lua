@@ -88,7 +88,12 @@ local plunits =
 		"pl_sortie_light_fighter",
 		"pl_sortie_bomber",
 	},
-	
+  plboatyard =
+  {
+    "plassaultboat",
+    "plpontoonraft",
+    "pllintz",
+  },	
 }
 
 return plunits

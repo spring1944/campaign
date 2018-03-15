@@ -50,7 +50,7 @@ local plDefs = {
 			"plrifle",
 			"plwz1928lmg",
 			"plwz1928lmg",
-			"PLGranatnikMortar",
+			"plgranatnikmortar",
 		},
 		name = "Assault Platoon",
 		description = "4 x Karabinek Rifle, 2 x wz.1928 LMG, 1 x Granatnik: Close-Quarters Assault Infantry",
@@ -62,7 +62,7 @@ local plDefs = {
 	{
 		members = {
 			"plwz1928lmg",
-			"PLWZ30HMG",
+			"plwz30hmg",
 			"plwz1928lmg",
 			"plobserv",
 		},
@@ -148,6 +148,23 @@ local plDefs = {
 		buildCostMetal = 900,
 		buildPic = "PLwz34_platoon.png",
 		objectName = "PL/PLwz34.s3o",
+	},
+
+	["pl_platoon_landing"] = {
+		members = {
+			"plobserv",
+			"plrifle",
+			"plrifle",
+			"plrifle",
+			"plrifle",
+			"plrifle",
+			"plrifle",
+			"plwz30hmg",
+			"plwz1928lmg",
+			"plwz1928lmg",
+			"plgranatnikmortar",
+			"platinf",
+		},
 	},
 }
 
