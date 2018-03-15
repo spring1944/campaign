@@ -51,7 +51,7 @@ local plunits =
 		"pl_platoon_mortar",
 		"plfiat621",
 		"plsokol1000scout",
---		"plpontoontruck",
+		"plpontoontruck",
 	},
 
   
@@ -72,6 +72,7 @@ local plunits =
 		"plsokol1000heavy",
 		"plsokol1000scout",
 		"plfiat508_iii",
+	"plpontoontruck",
     },
   
     pltankyard =

@@ -15,10 +15,13 @@ local PL_TruckSupplies = Supplies:New{
 	},
 }
 
+local PL_PontoonTruck = PL_Fiat621:New(PontoonTruck, true)
+
 -- lowercase objectname!
 PL_TruckSupplies.objectname = "PL/PLTruckSupplies.s3o"
 
 return lowerkeys({
 	["PLFiat621"] = PL_Fiat621,
 	["PLTruckSupplies"] = PL_TruckSupplies,
+	["PLPontoonTruck"] = PL_PontoonTruck,
 })

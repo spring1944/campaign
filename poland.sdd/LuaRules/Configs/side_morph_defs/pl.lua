@@ -150,6 +150,16 @@ local plDefs = {
         metal = 0,
         energy = 0,
     },
+-- Pontoon trucks  
+    plpontoontruck =
+  {
+    into = 'plboatyard',
+    tech = 0,
+    time = 20,
+    metal = 0,
+    energy = 0,
+	facing = true,
+  },
 }
 
 return plDefs
