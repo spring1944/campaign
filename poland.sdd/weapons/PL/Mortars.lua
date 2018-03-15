@@ -15,7 +15,7 @@ local Granatnik = MortarHE:New(cGranatnik, true):New{
     default            = 300,
   },
 }
-local Granatnik_smoke = MortarSmoke:New(cKneeMortar, true)
+local Granatnik_smoke = MortarSmoke:New(cGranatnik, true)
 
 -- Return only the full weapons
 return lowerkeys({
