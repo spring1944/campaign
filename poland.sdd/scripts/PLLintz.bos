@@ -4,6 +4,7 @@ piece base, hatch, lifebuoy, turret, grabber, link,
 	turret_1, sleeve_1, flare_1,
 	turret_2, sleeve_2, flare_2,
 	wake1, wake2, wake3,
+	propeller1, propeller2,
 	flag1, flag2, flag3;
 
 #define BASE_SMOKE_PERIOD	40
@@ -23,6 +24,8 @@ piece base, hatch, lifebuoy, turret, grabber, link,
 #define SIG_AIM2			16
 
 #define RESTORE_PERIOD		2500
+
+#define PROPELLER_SPEED		<360>
 
 // effects
 #define MG_MUZZLEFLASH 1024+2
@@ -166,6 +169,8 @@ StopMoving()
 	set-signal-mask SIG_MOVE;
 	// We don't want this to trigger on VERY short stops
 	sleep 300;
+	stop-spin propeller1 around z-axis;
+	stop-spin propeller2 around z-axis;
 	bMoving = FALSE;
 }
 
@@ -193,6 +198,8 @@ StartMoving()
 	start-script EmitWakes();
 	start-script StopCatcher();
 	start-script CloseRamp();
+	spin propeller1 around z-axis speed PROPELLER_SPEED;
+	spin propeller2 around z-axis speed PROPELLER_SPEED;
 	bMoving = TRUE;
 }
 
