@@ -94,6 +94,7 @@ local plunits =
     "plassaultboat",
     "plpontoonraft",
     "pllintz",
+	"pllku",
   },	
 }
 
