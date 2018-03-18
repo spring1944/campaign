@@ -59,7 +59,7 @@ local PLLKU_turret_37mm = EnclosedBoatTurret:New{
     },
 }
 
-local PLLKU_turret_mg = EnclosedBoatTurret:New{
+local PLLKU_turret_mg = OpenBoatTurret:New{
 	name					= "LKU Machinegun Turret",
 	description				= "Machinegun Turret",
 	objectName				= "<SIDE>/pl_lku_turret_mg.s3o",
