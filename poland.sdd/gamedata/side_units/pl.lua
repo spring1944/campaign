@@ -95,6 +95,7 @@ local plunits =
     "plpontoonraft",
     "pllintz",
 	"pllku",
+	"pltypez",
   },	
 }
 
