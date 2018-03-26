@@ -1,6 +1,6 @@
 local plDefs = {
 	 -----------------------------
-	 -- GBR Platoons and Squads --
+	 -- PL Platoons and Squads --
 	 -----------------------------
 
 	["pl_platoon_hq"] =
