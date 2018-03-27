@@ -2,6 +2,7 @@
 local MAS_36 = RifleClass:New{
 	name			= [[Fusil à répétition 7 mm 5 M. 36]],
 	range			= 640,
+	reloadtime         	= 3.0,
 	soundStart		= [[MAS_36]],
 }
 
