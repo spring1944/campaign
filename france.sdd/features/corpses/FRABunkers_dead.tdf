@@ -1,0 +1,21 @@
+[frahq_dead] {
+  description=Destroyed HQ;
+  damage=2501;
+  energy=1000;
+  featureDead=BuildingDebris_Large;
+  footprintX=10;
+  footprintZ=8;
+  object=FRA/frahq_dead.s3o;
+  reclaimable=1;
+}
+
+[frabarracksbunker_dead] {
+  description=Destroyed Barracks Bunker;
+  damage=2501;
+  energy=1000;
+  featureDead=BuildingDebris_Large;
+  footprintX=10;
+  footprintZ=8;
+  object=FRA/frabarracksbunker_dead.s3o;
+  reclaimable=1;
+}

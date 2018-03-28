@@ -18,6 +18,7 @@ local FRA_Barracks = Barracks:New{
 
 local FRA_BarracksBunker = FRA_Barracks:New(Bunker):New{
 	buildCostMetal				= 5640,
+	corpse					= "frabarracksbunker_dead",
 	maxDamage					= 18250,
 	yardmap						= [[ooyyy 
 								    yyyyy 
