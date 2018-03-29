@@ -1,0 +1,33 @@
+[frasomuamcg_destroyed] {
+  description=Destroyed Engineer Vehicle;
+  damage=1251;
+  energy=50;
+  featureDead=frasomuamcg_wreck;
+  footprintX=2;
+  footprintZ=2;
+  object=FRA/FRASomuaMCG_Dead.S3O;
+  reclaimable=1;
+	[customParams]
+		{
+		cover_strength=2;
+		cover_radius=50;
+
+		}
+}
+
+[frasomuamcg_wreck] {
+  description=Destroyed Engineer Vehicle;
+  damage=1251;
+  energy=50;
+  featureDead=Debris_Small;
+  footprintX=2;
+  footprintZ=2;
+  object=FRA/FRASomuaMCG_wreck.S3O;
+  reclaimable=1;
+	[customParams]
+		{
+		cover_strength=2;
+		cover_radius=50;
+
+		}
+}

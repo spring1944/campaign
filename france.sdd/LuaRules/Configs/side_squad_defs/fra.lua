@@ -140,6 +140,30 @@ local FRADefs = {
 		-- other fields not needed for transport squads
 	},
 
+	["fra_platoon_light_tank_35"] =
+	{
+		members = {
+			"frar35",
+			"frah35",
+		},
+		name = "mle.35 Light tank platoon",
+		description = "1 x Renault R-35, 1 x Hotchkiss H-35",
+		buildCostMetal = 3300,
+		buildPic = "fra_platoon_light_tank_35.png",
+	},
+
+	["fra_platoon_light_tank_39"] =
+	{
+		members = {
+			"frar39",
+			"frah39",
+		},
+		name = "mle.39 Light tank platoon",
+		description = "1 x Renault R-39, 1 x Hotchkiss H-39",
+		buildCostMetal = 3700,
+		buildPic = "fra_platoon_light_tank_39.png",
+	},
+
 	["fra_platoon_lct"] =
 	{
 		members = {

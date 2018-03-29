@@ -140,6 +140,29 @@ local fraDefs = {
         energy = 0,
     },
 
+	fravehicleyard = {
+		{
+			into = 'fravehicleyard1',
+			metal = 2000,
+			energy = 0,
+			time = 65,
+			name = 'Light\nArmor',
+			text = 'Makes Light Armor available in this yard',
+			facing = true,
+		},
+	},
+
+	fratankyard = {
+		{
+			into = 'fratankyard1',
+			metal = 4500,
+			energy = 0,
+			time = 60,
+			name = 'Heavy\nArmor',
+			text = 'Makes Heavy Armor available in this yard',
+			facing = true,
+		},
+	},
 }
 
 return fraDefs
