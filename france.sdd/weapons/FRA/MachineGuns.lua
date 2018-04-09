@@ -23,7 +23,7 @@ local MACmle1931 = MGClass:New{
 	sprayAngle         = 320,
 }
 
-local MACmle1934 = MACmle1931:New{
+local MACmle1934 = MACmle1931:New(AMG):New{
 	burst				= 10,
 	burstRate			= 0.04,
 	name				= [[MAC 1934]],

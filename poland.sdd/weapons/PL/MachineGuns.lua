@@ -47,14 +47,14 @@ local CKMwz14 = MGClass:New{
 } 
 
 -- Aircraft machineguns
-local PWU_wz36 = M1919A4Browning_Deployed:New{
+local PWU_wz36 = M1919A4Browning_Deployed:New(AMG):New{
 	burst		= 10,
 	burstRate	= 0.05,
 	name		= [[Lotniczy Karabin Maszynowy Pilota wz.36N]],
 	soundStart	= [[PL_PWU_wz_36]],
 }
 
-local PWU_wz37 = Browning_wz1928:New{
+local PWU_wz37 = Browning_wz1928:New(AMG):New{
 	burst		= 7,
 	burstRate	= 0.05,
 	name		= [[Karabin maszynowy obserwatora wz.37]],
