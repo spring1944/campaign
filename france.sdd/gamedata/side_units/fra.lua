@@ -12,7 +12,7 @@ local fraunits =
 		"fravehicleyard",
 		"frabarracks",
 		"fragunyard",
-		--"fraradar",
+		"fraradar",
 		"frastorage",
 		"fraatminesign",
 		"fraapminesign",
@@ -28,7 +28,7 @@ local fraunits =
     "fragunyard",
     "fravehicleyard",
     "fratankyard",
-    --"fraradar",
+    "fraradar",
     "frasupplydepot",
     "frastorage",
     "fratankobstacle",
@@ -103,6 +103,13 @@ local fraunits =
 		"fra_platoon_light_tank_35",
 		"fras35",
 		"fracharb1bis",
+	},
+
+	fraradar = {
+		"fra_sortie_recon",
+		"fra_sortie_interceptor",
+		"fra_sortie_fighter",
+		"fra_sortie_attack",
 	},
 }
 
