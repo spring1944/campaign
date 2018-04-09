@@ -23,6 +23,13 @@ local MACmle1931 = MGClass:New{
 	sprayAngle         = 320,
 }
 
+local MACmle1934 = MACmle1931:New{
+	burst				= 10,
+	burstRate			= 0.04,
+	name				= [[MAC 1934]],
+	soundStart			= [[FRA_MAC1934]],
+}
+
 local Hotchkiss_mle1914_deployed = MGClass:New{
   burst              = 8,
   burstRate          = 0.073,
@@ -37,5 +44,6 @@ local Hotchkiss_mle1914_deployed = MGClass:New{
 return lowerkeys({
   FM_24_29 = MACmle1924_29,
   MACmle1931 = MACmle1931,
+  MACmle1934 = MACmle1934,
   Hotchkiss_mle1914_deployed = Hotchkiss_mle1914_deployed,
 })
